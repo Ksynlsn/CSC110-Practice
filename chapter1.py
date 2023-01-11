@@ -20,9 +20,23 @@ person1 = {"Name" : "Kacie", "Age" : 33}
 print(type("string"))
 print(type(666))
 print(type(3.14))
-print(type(animals))
-print(type(fruit))
-print(type(person1))
+print(type(animals)) #list
+print(type(fruit)) #tuple
+print(type(person1)) #dict
 print(person1)
 
 # VARIABLES
+message = "Hi" #string
+n = 17 #int
+pi = 3.14159 #float
+this_is_a_legal_variable_name = True #bool
+
+print(type(this_is_a_legal_variable_name))
+
+# Reserved Keywords in Python
+pythonKeywords = ["and", "as", "assert", "break", "class", "continue", "def", 
+"del", "elif", "else", "except", "exec", "finally", "for", "from", "global", "if",
+"import", "in", "is", "lambda", "nonlocal", "not", "or", "pass", "raise", "return",
+"try", "while", "with", "yeild", "True", "False", "None",]
+
+print(pythonKeywords)

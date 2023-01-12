@@ -20,14 +20,14 @@ day4 = "Thursday"
 day5 = "Friday"
 day6 = "Saturday"
 
-# leaveOn = int(input("What day are you leaving?"))
-# lengthOf = int(input("How long are you staying"))
-# uhOh = input("Are you flying Southwest? ( Y or N)")
+leaveOn = int(input("What day are you leaving?"))
+lengthOf = int(input("How long are you staying"))
+uhOh = input("Are you flying Southwest? ( Y or N)")
 
-# if uhOh == "Y":
-#     totalDays = leaveOn + lengthOf + 5
-# else: totalDays = leaveOn + lengthOf
-# print(totalDays % 7)
+if uhOh == "Y":
+    totalDays = leaveOn + lengthOf + 5
+else: totalDays = leaveOn + lengthOf
+print(totalDays % 7)
 
 
 # Write a Python program that assigns the principal amount of 10000 to variable P, 
@@ -45,22 +45,22 @@ r = 0.08 # 8% interest rate
 # and print a nice message back to the user with the answer.
 
 # pi = 3.14159
-# r = float(input("What is the radius of our circle?"))
-# print(f"The area of a circle with a radius of {r} is", pi * r**2)
+r = float(input("What is the radius of our circle?"))
+print(f"The area of a circle with a radius of {r} is", pi * r**2)
 
 # Write a program that will compute the area of a rectangle. Prompt the user to enter the width and height of the rectangle. 
 # Print a nice message with the answer.
-# l = float(input("What is the length of the rectangle?"))
-# w = float(input("What is the width of the rectangle?"))
-# u = input("What unit of measurement are these in?")
-# print("The area of this rectangle is", l * w, u, "squared")
+l = float(input("What is the length of the rectangle?"))
+w = float(input("What is the width of the rectangle?"))
+u = input("What unit of measurement are these in?")
+print("The area of this rectangle is", l * w, u, "squared")
 
 # Write a program that will compute MPG for a car. Prompt the user to enter the number of miles driven and the number of gallons used.
 #  Print a nice message with the answer.
-# miles = int(input("Please enter the ammount of miles driven:"))
-# gallons = int(input("How many gallons of gas did you use?"))
-# MPG = miles / gallons
-# print("Your miles per gallon on this trip were", round(MPG, 2))
+miles = int(input("Please enter the ammount of miles driven:"))
+gallons = int(input("How many gallons of gas did you use?"))
+MPG = miles / gallons
+print("Your miles per gallon on this trip were", round(MPG, 2))
 
 # Write a program that will convert degrees celsius to degrees fahrenheit. and vise versa
 temp = int(input("What is the tempature in fahrenheit?"))

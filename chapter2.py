@@ -36,6 +36,21 @@ print(7 // 4) #prints 1
 #CONVERTER FUNCTIONS
 # The INT function takes a float or a string and turns it into an int. For floats, it
 # discards the number after the decimal (trunctation towards zero)
+print(type('This is a string.') )
+print(type("And so is this.") )
+print(type("""and this.""") )
+print(type('''and even this...''') )
+
+print("""This message will span
+several lines
+of the text.""")
+print("""this
+message
+will also
+      
+span
+      
+multiple lines......""")
 
 myNumber = 2
 
@@ -70,6 +85,18 @@ print("The area is ", 3.14159 * r**2)
 
 # now let's do all of this in one line
 print("The area is ", 3.14159*float(input("What is your radius now?"))**2)
+
+n = input("Please enter your name: ")
+print("Hello", n)
+
+r = int(input("please enter your age: "))
+if r >= 21:
+    print("Welcome to the bar!")
+else:
+    print(f"We're sorry, you are not yet 21. Please wait {21 - r} more years and try again, kiddo!")
+
+# Exponentiation has precedence over multiplication, but its precedence goes from right to left! 
+#So 2 ** 3 is 8, 2 ** 8 is 256 and 256 * 3 is 768.
 
 # MODULUS
 # gives the remainder when the first number has been divided by the second

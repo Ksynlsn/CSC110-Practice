@@ -50,3 +50,13 @@ blue.down()
 for i in range(6):
     blue.forward(100)
     blue.left(360/6)
+
+# turtle.setworldcoordinates(llx, lly, urx, ury)
+# Parameters
+# llx  a number, x-coordinate of lower left corner of canvas
+
+# lly  a number, y-coordinate of lower left corner of canvas
+
+# urx  a number, x-coordinate of upper right corner of canvas
+
+# ury  a number, y-coordinate of upper right corner of canvas

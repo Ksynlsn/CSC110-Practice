@@ -1,16 +1,14 @@
+# CSC 110 Week 5 Assignment
 import turtle
 wn = turtle.Screen()
+wn.setup(800,500)
 t = turtle.Turtle()
 
-t.up()
-t.goto(-150, -150)
-t.down()
-
-def drawMaze(t, size):
+def drawMaze(t, length):
     for i in range(0, 24, 1):
-        t.forward(size)
+        t.forward(length)
         t.left(90)
-        size = size + 7
+        length = length + 7
 
 drawMaze(t, 7)
 

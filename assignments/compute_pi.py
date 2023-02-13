@@ -1,3 +1,4 @@
+# Kacie Nielsen - CSC 110 - Compute Pi Extra Credit
 def pi():
     n =2
     e = 1
@@ -8,4 +9,4 @@ def pi():
         n = n + 2
         e = e * -1            
     return(y)
-print(pi())
+print(pi()) # 350 iterations
